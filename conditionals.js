@@ -31,3 +31,13 @@ const age = 26;
 if (isCitizen && age > 18) {
   console.log("You are eligible to vote.")
 }
+
+//Another tempearture one
+if (temperature < -40 || temperature > 40) {
+  console.log("Maybe going outside isn't such a great idea...");
+}
+
+//not raining
+if (!raining) {
+  console.log("Leave your umbrealla at home!");
+}
